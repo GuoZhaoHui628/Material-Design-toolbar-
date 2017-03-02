@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <guozhaohui.com.customtoolbar.MyToolBar
+        android:id="@+id/my_toolbar"
+        app:iconRight="@mipmap/back"
+        app:iconLeft="@mipmap/setting"
+        app:textCen="地对地导弹"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+    </guozhaohui.com.customtoolbar.MyToolBar>
+
+
+    <Button
+        android:id="@+id/bt_setText"
+        android:text="代码中修改中间文字"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/bt_setIcon"
+        android:text="代码中修改图标"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+
+
+</LinearLayout>
